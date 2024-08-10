@@ -1,0 +1,46 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2{
+    font-weight: 700;
+}
+
+h2{
+    padding: 0.5rem;
+}
+
+img{
+    width: 200px;
+    padding: 1rem;
+}
+
+p{
+    text-align: justify;
+    margin: 1rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+#elemento_titulo{
+    text-align: center;
+    margin: 1rem;
+}
+
+.artigo{
+    width: 80vw;
+    border-radius: 1rem;
+    margin: 0 auto;
+    display:flex;
+    justify-content: center;
+    align-items:start;
+    background-color: #e2e8f0;
+}
